@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navon Business Registration</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    .hero-section {
+      position: relative;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+    .hero-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+    }
+    .hero-content h1 {
+      font-size: 4rem;
+      font-weight: bold;
+    }
+    .intro-section {
+      padding: 60px 0;
+      background: #f8f9fa;
+    }
+    .registration-options {
+      padding: 20px 0;
+    }
+    .registration-card {
+      transition: transform 0.3s ease;
+    }
+    .registration-card:hover {
+      transform: translateY(-10px);
+    }
+    .footer {
+      background: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+ <!-- Fixed Logo -->
+ <div class="fixed-logo">
+  <img src="logo.png" alt="Navon Logo" class="logo-img">
+</div>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <video class="hero-video" autoplay muted loop>
+      <source src="hero.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <h1>Navon Business Registration</h1>
+      <p class="lead">Your trusted partner for seamless company registration worldwide.</p>
+    </div>
+  </section>
+
+  <!-- Introduction Section -->
+  <section class="intro-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2><b>Welcome to Navon Business Registration</b></h2>
+          <p class="lead" style="text-align: left;">
+            At Navon, we specialize in helping entrepreneurs and businesses register their companies in various jurisdictions. 
+            Whether you're looking to expand globally or start a new venture, we provide expert guidance and support to make the process smooth and hassle-free.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Options Section -->
+  <section class="registration-options">
+    <div class="container">
+      <div class="row">
+        <!-- Romania -->
+        <div class="col-md-3 mb-4">
+          <div class="card registration-card h-100">
+            <img src="1.jpg" class="card-img-top" alt="Romania">
+            <div class="card-body text-center">
+              <h5 class="card-title">Romania</h5>
+              <p class="card-text">Register your business in Romania with ease.</p>
+              <a href="https://romaniabusinessregistration.com/" class="btn btn-primary">Register Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Bulgaria -->
+        <div class="col-md-3 mb-4">
+          <div class="card registration-card h-100">
+            <img src="2.jpg" class="card-img-top" alt="Bulgaria">
+            <div class="card-body text-center">
+              <h5 class="card-title">Bulgaria</h5>
+              <p class="card-text">Start your business journey in Bulgaria.</p>
+              <a href="https://bulgariabusinessregistration.com/" class="btn btn-primary">Register Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- UAE -->
+        <div class="col-md-3 mb-4">
+          <div class="card registration-card h-100">
+            <img src="3.jpg" class="card-img-top" alt="UAE">
+            <div class="card-body text-center">
+              <h5 class="card-title">UAE</h5>
+              <p class="card-text">Expand your business in the UAE.</p>
+              <a href="https://uaebusinessregistration.com/" class="btn btn-primary">Register Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Delaware -->
+        <div class="col-md-3 mb-4">
+          <div class="card registration-card h-100">
+            <img src="4.jpg" class="card-img-top" alt="Delaware">
+            <div class="card-body text-center">
+              <h5 class="card-title">Delaware</h5>
+              <p class="card-text">Incorporate your business in Delaware.</p>
+              <a href="https://delawarebusinessregistration.com/" class="btn btn-primary">Register Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Navon Business Registration. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* Fixed Logo Styles */
+.fixed-logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+  }
+  
+  .logo-img {
+    width: 120px; /* Adjust the size of the logo */
+    height: auto;
+    transition: transform 0.3s ease; /* Add a hover effect */
+  }
+  
+  .logo-img:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+  }
